@@ -67,8 +67,8 @@ def find_matching_images(original_dir, edited_dir, output_dir):
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    original_directory = "/Users/miti/Desktop/AI/epic/test"
-    edited_directory = "/Users/miti/Desktop/AI/epic/batch"
-    output_directory = "/Users/miti/Desktop/AI/epic/together"
+    original_directory = input("Enter the path to the original image directory: ")
+    edited_directory = input("Enter the path to the edited image directory: ")
+    output_directory = input("Enter the path to the output directory: ")
 
     find_matching_images(original_directory, edited_directory, output_directory)
